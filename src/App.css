@@ -1,0 +1,514 @@
+.dark {
+  --bg-color: rgb(21, 32, 43);
+  --main-color: white;
+  --icon-color: #fff;
+
+}
+
+.light {
+  --bg-color: rgb(247, 247, 247);
+  --main-color: black;
+  --icon-color: #000000;
+}
+
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--bg-color);
+  color: var(--main-color);
+  transition: 1s;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+* {
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+::-webkit-input-placeholder {
+  color: var(--main-color);
+}
+
+
+body {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  box-sizing: border-box;
+  background-color: var(--bg-color);
+  flex: 0.9;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.150);
+  padding-top: 0.5%;
+
+  display: flex;
+  justify-content: start;
+}
+
+.hsb-1 {
+  margin-left: 2%;
+}
+
+.hsb-1 .fa-3x {
+  fill: #008ad3;
+  font-size: 50px;
+}
+
+.hsb-2 {
+  width: 20%;
+  height: 60%;
+  border-radius: 30px;
+  margin-top: 0.3%;
+  padding: 1%;
+  margin-left: 0.5%;
+
+  display: flex;
+  align-items: center;
+}
+
+.hsb-2 .hsb2-input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: black;
+  margin-left: 2%;
+}
+
+.hsb-3 {
+  width: 49%;
+  margin-left: 3%;
+  padding: 0.5%;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.hsb-3 .hsb-3-icon {
+  margin-left: 12%;
+  font-size: 22px;
+}
+
+.hsb-4 {
+  width: 25%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.hsb-4 div {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  margin-left: 2.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hsb-4 div .icon {
+  font-size: 22px;
+}
+
+.hsb-4>button {
+  color: var(--main-color);
+  background-color: var(--bg-color);
+}
+
+.dp {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.dp>img {
+  flex: 7;
+  border-radius: 40px;
+}
+
+.body {
+  box-sizing: border-box;
+  padding-top: 20px;
+  display: flex;
+}
+
+.dp button {
+  border: none;
+}
+
+.dp button .dicon {
+  fill: var(--icon-color);
+  font-size: 30px;
+}
+
+/* ################################### BOX 1 STYLING ############################## */
+
+.bsb-1 {
+  position: sticky;
+  height: 85vh;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.419);
+  border-radius: 5px;
+  margin: 0 10px;
+  padding: 10px 0;
+  flex: 2;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.150);
+  display: flex;
+  flex-direction: column;
+}
+
+.sdp {
+  width: 100%;
+  height: 10%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.sdp>img {
+  margin-left: 5%;
+  border-radius: 100px;
+}
+
+.sdp>p {
+  padding-left: 5%;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.f-icon {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.f-icon>.icon {
+  font-size: 35px;
+  margin-left: 5%;
+  border-radius: 100px;
+  fill: #008ad3;
+}
+
+.f-icon>p {
+  padding-left: 5%;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.g-icon {
+  margin-top: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.g-icon>.icon {
+  font-size: 35px;
+  margin-left: 5%;
+  border-radius: 100px;
+  fill: #008ad3;
+}
+
+.g-icon>p {
+  padding-left: 5%;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.mart-icon {
+  margin-top: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.mart-icon>.icon {
+  font-size: 35px;
+  margin-left: 5%;
+  border-radius: 100px;
+  fill: #008ad3;
+}
+
+.mart-icon>p {
+  padding-left: 5%;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.watch-icon {
+  margin-top: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.watch-icon>.icon {
+  font-size: 35px;
+  margin-left: 5%;
+  border-radius: 100px;
+  fill: #008ad3;
+}
+
+.watch-icon>p {
+  padding-left: 5%;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.memorie-icon {
+  margin-top: 8%;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.memorie-icon>.icon {
+  font-size: 35px;
+  margin-left: 5%;
+  border-radius: 100px;
+  fill: #008ad3;
+}
+
+.memorie-icon>p {
+  padding-left: 5%;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.see-icon {
+  margin-top: 8%;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.see-icon>.icon {
+  font-size: 35px;
+  margin-left: 5%;
+  border-radius: 100px;
+  fill: rgb(27, 27, 27)
+}
+
+.see-icon>p {
+  padding-left: 5%;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.bsb-1>p {
+  color: gray;
+  margin-top: 2%;
+  padding-left: 5%;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.bowling-icon {
+  width: 100%;
+  height: 10%;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.bowling-icon>img {
+  margin-left: 5%;
+  border-radius: 100px;
+}
+
+.bowling-icon>p {
+  padding-left: 5%;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.omg-icon {
+  margin-top: 3%;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.omg-icon>.omg {
+  font-size: 28px;
+  margin-left: 5%;
+  border-radius: 100px;
+  fill: #000000;
+  ;
+}
+
+.omg-icon>p {
+  padding-left: 5%;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+
+/* ########################################### BOX 2 STYLING ###################################### */
+
+.bsb-2p {
+  height: 85vh;
+  background-color: #fff;
+  flex: 5;
+
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  flex-direction: column;
+}
+
+.bsb-2 {
+  height: 40%;
+  background-color: #fff;
+  overflow-y: scroll;
+  flex: 5;
+
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.main-box {
+  height: 35%;
+  align-content: center;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.447);
+  border-radius: 5px;
+  padding-top: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.story-box1,
+.story-box2,
+.story-box3,
+.story-box4,
+.story-box5 {
+  height: 100%;
+  width: 40%;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.stp {
+  border-radius: 30px;
+}
+
+
+/* ########################################## BOX 3 STYLING ####################################### */
+
+.bsb-3 {
+  height: 85vh;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.419);
+  border-radius: 5px;
+  margin: 0 10px;
+  padding: 10px 0;
+  flex: 2;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact>p {
+  color: gray;
+  margin-top: 5%;
+  padding-left: 5%;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.contact>p>.v-icon {
+  margin-left: 30%;
+
+}
+
+.contact>p>i {
+  margin-left: 5%;
+
+}
+
+/* ********************** post style************************** */
+
+
+.post {
+  border-radius: 20px;
+  width: 80%;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.496);
+}
+
+.post .postHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post .profilePhoto {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post .postImage {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.post .postFooter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.post .postFooter div {
+  font-size: 22px;
+  font-weight: 500;
+  color: gray;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-icon {
+  font-size: 25px;
+  fill: gray;
+}
